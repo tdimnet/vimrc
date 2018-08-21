@@ -1,3 +1,5 @@
-setlocal shiftwidth=2
-setlocal tabstop=2
-setlocal foldmethod=indent
+" Settings for PHP Coding Standard
+setlocal shiftwidth=4
+setlocal tabstop=4
+setlocal expandtab
+
