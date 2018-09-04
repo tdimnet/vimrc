@@ -17,7 +17,7 @@ filetype plugin on
 filetype indent on
 
 " Make sure the search hit is never at the bottom
-set scrolloff=5
+set scrolloff=10
 
 " Indent settings
 set autoindent
@@ -36,4 +36,5 @@ set ignorecase
 
 " Color scheme (terminal)
 colorscheme Tomorrow-Night
+
 
