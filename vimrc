@@ -3,7 +3,10 @@ set nocompatible
 
 " Turn on syntax highlighting
 syntax on
-set nowrap
+
+" Word Wrapper
+set wrap
+set linebreak
 
 " Show line numbers
 set number
@@ -38,8 +41,7 @@ set ignorecase
 colorscheme Tomorrow-Night
 
 " Ale config
-
-
+let g:ale_completion_enabled = 1
 
 " Put these lines at the very end of your vimrc file.
 
