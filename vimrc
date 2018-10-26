@@ -30,9 +30,9 @@ filetype indent on
 set scrolloff=10
 
 " Add right margin
-set colorcolumn=80
+"set colorcolumn=80
 " set columns=80 -> the vim windows takes 80 columns with it
-set textwidth=80
+"set textwidth=80
 
 " Indent settings
 set autoindent
