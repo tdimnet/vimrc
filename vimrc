@@ -20,6 +20,8 @@ let g:netrw_list_hide=netrw_gitignore#Hide()
 let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 let g:netrw_winsize = 80
 
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro' " Add line number for netrw
+
 " Word Wrapper
 set wrap
 set linebreak
