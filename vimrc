@@ -1,38 +1,10 @@
-set nocompatible
+" #############################
+" ######## COC Settings########
+" #############################
+
+" Set internal encoding of vim, not needed on neovim, since coc.nvim using some
+" unicode characters in the file autoload/float.vim
 set encoding=utf-8
-
-" Syntax hightlight
-syntax on
-
-" Set the terminal's title
-set title
-
-" Add an 8 bottom line
-set scrolloff=8
-
-" Linenumber and relative line numbers
-set number
-set relativenumber
-
-" Tab settings
-set tabstop=4 softtabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
-
-" Folding settings
-set foldenable
-set foldmethod=indent
-
-" Adding width info for columns stuff
-" set colorcolumn=80 -> for now I don't really like the color
-set tw=79
-set wrap linebreak
-
-" Set to show invisibles (tabs & trailing spaces) & their highlight color
-set list listchars=tab:»\ ,trail:·
-
-" Related to COC
 
 " TextEdit might fail if hidden is not set.
 set hidden
@@ -196,16 +168,57 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-" /Related to COC
+" ##############################
+" ######## /COC Settings #######
+" ##############################
+
+" ###############################
+" ######## Plug Settings ########
+" ###############################
 
 " Plugins will be downloaded under the specified directory.
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
 " Declare the list of plugins.
 Plug 'junegunn/seoul256.vim'
+Plug 'tpope/vim-sensible'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
+" ################################
+" ######## /Plug Settings ########
+" ################################
+
+
+" ################################
+" ######## Personal Settings  ####
+" ################################
+
+" Add an 8 bottom line
+set scrolloff=8
+
+" Linenumber and relative line numbers
+set number
+set relativenumber
+
+" Folding settings
+set foldenable
+set foldmethod=indent
+
+" Set to show invisibles (tabs & trailing spaces) & their highlight color
+set list listchars=tab:»\ ,trail:·
+
+" Adding width info for columns stuff
+" set colorcolumn=80 -> for now I don't really like the color
+set tw=79
+set wrap linebreak
+
+" Colorscheme
+colo seoul256
+
+" ################################
+" ######## /Personal Settings  ###
+" ################################
 
