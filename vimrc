@@ -218,7 +218,9 @@ set wrap linebreak
 " Colorscheme
 colo seoul256
 
+" Fix Redrawtime exceeded syntax highlighting disabled
+set re=0
+
 " ################################
 " ######## /Personal Settings  ###
 " ################################
-
