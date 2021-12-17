@@ -183,6 +183,9 @@ call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 Plug 'junegunn/seoul256.vim'
 Plug 'tpope/vim-sensible'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'rhysd/vim-crystal'
+Plug 'prettier/vim-prettier'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -208,7 +211,14 @@ set foldenable
 set foldmethod=indent
 
 " Set to show invisibles (tabs & trailing spaces) & their highlight color
-set list listchars=tab:»\ ,trail:·
+" set list listchars=tab:»\ ,trail:·
+
+" Indent Settings
+let g:indent_guides_enable_on_vim_startup = 1
+
+set expandtab
+set shiftwidth=4
+set smartindent
 
 " Adding width info for columns stuff
 " set colorcolumn=80 -> for now I don't really like the color
