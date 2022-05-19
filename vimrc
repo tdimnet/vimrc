@@ -186,6 +186,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'rhysd/vim-crystal'
 Plug 'prettier/vim-prettier'
+Plug 'pantharshit00/vim-prisma'
+
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
