@@ -187,6 +187,8 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'rhysd/vim-crystal'
 Plug 'prettier/vim-prettier'
 Plug 'pantharshit00/vim-prisma'
+Plug 'vim-airline/vim-airline'
+Plug 'junegunn/fzf.vim'
 
 
 " List ends here. Plugins become visible to Vim after this call.
@@ -219,7 +221,7 @@ set foldmethod=indent
 let g:indent_guides_enable_on_vim_startup = 1
 
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set smartindent
 
 " Adding width info for columns stuff
