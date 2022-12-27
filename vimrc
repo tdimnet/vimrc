@@ -188,7 +188,7 @@ Plug 'rhysd/vim-crystal'
 Plug 'prettier/vim-prettier'
 Plug 'pantharshit00/vim-prisma'
 Plug 'vim-airline/vim-airline'
-Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 
 " List ends here. Plugins become visible to Vim after this call.
@@ -234,6 +234,13 @@ colo seoul256
 
 " Fix Redrawtime exceeded syntax highlighting disabled
 set re=0
+
+" FZF key bindings
+nnoremap <C-f> :FZF<CR>
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-i': 'split',
+  \ 'ctrl-v': 'vsplit' }
 
 " ################################
 " ######## /Personal Settings  ###
