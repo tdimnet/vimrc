@@ -189,6 +189,7 @@ Plug 'prettier/vim-prettier'
 Plug 'pantharshit00/vim-prisma'
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'dense-analysis/ale'
 
 
 " List ends here. Plugins become visible to Vim after this call.
