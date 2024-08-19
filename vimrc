@@ -191,6 +191,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'dense-analysis/ale'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'wuelnerdotexe/vim-astro'
 
 
 " List ends here. Plugins become visible to Vim after this call.
