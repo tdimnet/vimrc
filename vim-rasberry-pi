@@ -1,1 +1,27 @@
+" Add an 8 bottom line
+set scrolloff=8
+
+" Linenumber and relative line numbers
+set number
+set relativenumber
+
+" Folding settings
+set foldenable
+set foldmethod=indent
+
+
+" Indent Settings
+let g:indent_guides_enable_on_vim_startup = 1
+
+set expandtab
+set shiftwidth=2
+set smartindent
+
+" Adding width info for columns stuff
+" set colorcolumn=80 -> for now I don't really like the color
+set tw=79
+set wrap linebreak
+
+" Colorscheme
+" colo seoul256
 
