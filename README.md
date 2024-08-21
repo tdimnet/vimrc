@@ -14,14 +14,14 @@ Raspberry Pi.
 Hope you like it here!
 
 
-## For my main computer
+## 1. For my main computer
 
-### Plugin Manager
+### 1.1. Plugin Manager
 
 - [Vim Plug](https://github.com/junegunn/vim-plug)
 
 
-### Plugins
+### 1.2. Plugins
 
 - [seoul256](https://github.com/junegunn/seoul256.vim): high constrat theme.
   There is also a iterm2 theme. I use both.
@@ -35,11 +35,24 @@ Hope you like it here!
 - [vim-prettier](https://github.com/prettier/vim-prettier): A Vim plugin for Prettier
 - [vim-prisma](https://github.com/pantharshit00/vim-prisma): Prisma 2 support for vim
 
+### 1.3. Coc Extensions (WIP)
 
-## For my Raspberry Pi (WIP)
+## 2. For my Raspberry Pi 
 
-### Plugin Manager
+### 2.1. Plugin Manager
+
+- [Vim Plug](https://github.com/junegunn/vim-plug)
 
 
-### Plugins
+### 2.2. Plugins
 
+- [seoul256](https://github.com/junegunn/seoul256.vim): high constrat theme.
+  There is also a iterm2 theme. I use both.
+  install it. So I did.
+- [CoC](https://github.com/neoclide/coc.nvim): blasting autocompletion. It's
+  like VsCode in better.
+
+### 2.3. Coc Extensions
+
+- [Coc Jedi](https://github.com/pappasam/coc-jedi): Python autocompletion for
+  Coc.
