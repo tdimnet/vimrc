@@ -40,5 +40,5 @@ set tw=79
 set wrap linebreak
 
 " Colorscheme
-" colo seoul256
+colo seoul256
 
