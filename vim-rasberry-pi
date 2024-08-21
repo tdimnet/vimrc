@@ -1,3 +1,20 @@
+" ###############################
+" ######## Plug Settings ########
+" ###############################
+
+" Plugins will be downloaded under the specified directory.
+call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
+
+" Declare the list of plugins.
+Plug 'junegunn/seoul256.vim'
+
+" List ends here. Plugins become visible to Vim after this call.
+call plug#end()
+
+" ################################
+" ######## /Plug Settings ########
+" ################################
+
 " Add an 8 bottom line
 set scrolloff=8
 
